@@ -21,7 +21,7 @@ class Landing extends React.Component {
           </Grid.Column>
 
           <Grid.Column textAlign={'center'}>
-            <Icon inverted className={'calendar check outline'} size={'huge'} color={'white'}/>
+            <Icon inverted className={'calendar check'} size={'huge'} color={'white'}/>
             <Header inverted as={'h1'}>Timestamped Notes</Header>
             <Header inverted as={'h3'}>Each time you make contact with a contact, you can write a note that summarizes the conversation. This note is saved along with a timestamp with the contact.</Header>
           </Grid.Column>

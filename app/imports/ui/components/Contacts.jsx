@@ -3,7 +3,7 @@ import { Card, Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import { withRouter } from 'react-router-dom';
 
-class Contact extends React.Component {
+class Contacts extends React.Component {
   render() {
     return (
       <Card>
@@ -23,9 +23,9 @@ class Contact extends React.Component {
 }
 
 // Require a document to be passed to this component.
-Contact.propTypes = {
+Contacts.propTypes = {
   contact: PropTypes.object.isRequired,
 };
 
 // Wrap this component in withRouter since we use the <Link> React Router element.
-export default withRouter(Contact);
+export default withRouter(Contacts);

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 class Contact extends React.Component {
   render() {
@@ -16,6 +16,9 @@ class Contact extends React.Component {
           <Card.Header>{this.props.contact.firstName} {this.props.contact.lastName}</Card.Header>
           <Card.Meta>{this.props.contact.address}</Card.Meta>
           <Card.Description>{this.props.contact.description}</Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Link to={`/edit/${this.props.contact._id}`}>Edit</Link>
         </Card.Content>
       </Card>
     );

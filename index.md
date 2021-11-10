@@ -5,7 +5,7 @@ First user will need to clone this project to the computer.<br/>
 Then go to the app directory by the following command:``` meteor npm install ``` to install the required libraries.<br/>
 Run the application with following command: ``` meteor npm run start ``` in the same directory. <br/>
 Everything should looks similar below: <br/>
-<img src="doc/open.png">
+<img src="doc/open2.png">
 Then run ``` http://localhost:3000/ ``` on the browser. It will goes to the landing page.<br/>
 <img src="doc/signin.png"><br/>
 On the top right corner of the navigation bar, there is a button for sign in/sign up.<br/>

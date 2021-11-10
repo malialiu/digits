@@ -1,6 +1,6 @@
-# Digits
 <img src="doc/home.png"><br/>
 Here is how the landing page going to looks like. In the navigation bar, once user click on the digits it will goes back to the landing page.<br/>
+### To Getting start on the application
 First user will need to clone this project to the computer.<br/>
 Then go to the app directory by the following command:``` meteor npm install ``` to install the required libraries.<br/>
 Run the application with following command: ``` meteor npm run start ``` in the same directory. <br/>
